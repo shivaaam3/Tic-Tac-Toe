@@ -1,0 +1,100 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: rgb(209, 213, 219);
+    background-color: rgb(17, 24, 39);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    gap: 0.5rem;
+}
+
+.restart {
+    background-color: #0D766E;
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    padding: 8px 20px;
+    border: solid 0px;
+}
+
+.footer {
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.input {
+    font-size: 5rem;
+    color: #D1D5DA;
+}
+
+
+.game-grid {
+    background-color: rgb(31, 41, 55);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+}
+
+.game-grid>button {
+    padding: 0px;
+    margin: 0px;
+    width: 8rem;
+    height: 8rem;
+    border: solid 0px;
+    background-color: rgb(31, 41, 55)
+}
+
+.player-description {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 3rem;
+}
+
+.player-description span {
+    font-size: 3rem;
+}
+
+#btn0 {
+    border-right: solid 2px #D1D5DA;
+    border-bottom: solid 2px #D1D5DA;
+}
+
+#btn1 {
+    border-bottom: solid 2px #D1D5DA;
+}
+
+#btn2 {
+    border-left: solid 2px #D1D5DA;
+    border-bottom: solid 2px #D1D5DA;
+}
+
+#btn3 {
+    border-right: solid 2px #D1D5DA;
+}
+
+#btn5 {
+    border-left: solid 2px #D1D5DA;
+}
+
+#btn6 {
+    border-right: solid 2px #D1D5DA;
+    border-top: solid 2px #D1D5DA;
+}
+
+#btn7 {
+    border-top: solid 2px #D1D5DA;
+}
+
+#btn8 {
+    border-left: solid 2px #D1D5DA;
+    border-top: solid 2px #D1D5DA;
+}
